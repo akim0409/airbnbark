@@ -1,366 +1,495 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://kit.fontawesome.com/638d441c12.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Ubuntu&display=swap" rel="stylesheet">
-    <title>capstone project</title>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              ubuntu: 'Ubuntu, sans-serif',
-              nanum: 'Nanum Gothic, sans-serif'
-            },
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/638d441c12.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Ubuntu&display=swap" rel="stylesheet">
+  <title>capstone project</title>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            ubuntu: 'Ubuntu, sans-serif',
+            nanum: 'Nanum Gothic, sans-serif'
           },
         },
-      };
-    </script>
-  </head>
-  <body>
-    <div>
-      <div class='px-6 py-4 flex justify-between items-center'>
-        <div class="flex flex-col items-center">
-          <img class="w-16" src="./images/dog_logo.png"/>
-          <div class="text-xl font-ubuntu text-orange-400">
-            airbn<span class="text-sky-600">bark</span>
-          </div>
-        </div>
-        
-        <i class="text-stone-500 fa-solid fa-bars text-3xl mr-4 sm:hidden"></i>
-        <div class="hidden sm:flex flex-1 justify-around text-xl font-ubuntu text-stone-500">
-          <a class="m-4" href="#mission">mission</a>
-          <a class="m-4" href="#team">team</a>
-          <a class="m-4" href="#testimonials">testimonials</a>
-          <a class="m-4" href="contact">contact</a>
-        </div>
-      </div>
-      <div class="flex flex-col items-center pb-12">
-        <div class="px-4 flex justify-center">
-          <img class="w-96"src="./images/dog_playing.jpg"/>
-        </div>
-        <div class="mx-2 font-ubuntu text-xl text-stone-500 flex flex-col items-start">
-          <div class="text-3xl">
-            The best site for dogsitters
-          </div>
-          <div class="my-2">
-            Find dogsitters on airbnbark for you furry friend.
-          </div>
-          <button class="my-2 bg-sky-600 text-white px-4 py-1 rounded-lg">sign up</button>
+      },
+    };
+  </script>
+</head>
+
+<body>
+  <div>
+    <div class='px-6 py-4 flex justify-between items-center'>
+      <div class="flex flex-col items-center">
+        <img class="w-16" src="./images/dog_logo.png" />
+        <div class="text-xl font-ubuntu text-orange-400">
+          airbn<span class="text-sky-600">bark</span>
         </div>
       </div>
 
+      <i class="text-stone-500 fa-solid fa-bars text-3xl mr-4 sm:hidden"></i>
+      <div class="hidden sm:flex flex-1 justify-around text-xl font-ubuntu text-stone-500">
+        <a class="m-4" href="#mission">mission</a>
+        <a class="m-4" href="#team">team</a>
+        <a class="m-4" href="#testimonials">testimonials</a>
+        <a class="m-4" href="contact">contact</a>
+      </div>
+    </div>
+    <div class="flex flex-col items-center pb-12">
+      <div class="px-4 flex justify-center">
+        <img class="w-96" src="./images/dog_playing.jpg" />
+      </div>
+      <div class="mx-2 font-ubuntu text-xl text-stone-500 flex flex-col items-start">
+        <div class="text-3xl">
+          The best site for dogsitters
+        </div>
+        <div class="my-2">
+          Find dogsitters on airbnbark for you furry friend.
+        </div>
+        <button class="my-2 bg-sky-600 text-white px-4 py-1 rounded-lg">sign up</button>
+      </div>
+    </div>
 
-      
-      <div id="mission" class="py-8 bg-orange-400 text-white font-nanum flex flex-col items-center">
-        <div class="px-4 font-ubuntu text-2xl mb-4 border-b-2 border-white">
-          Mission
+
+
+    <div id="mission" class="py-8 bg-orange-400 text-white font-nanum flex flex-col items-center">
+      <div class="px-4 font-ubuntu text-2xl mb-4 border-b-2 border-white">
+        Mission
+      </div>
+      <div class="mx-8 sm:mx-24">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+      </div>
+      <div>
+        <i class="my-4 text-5xl fa-light fa-paw"></i>
+      </div>
+    </div>
+
+
+
+
+    <div id="features" class="py-4 pt-16 flex flex-col items-center">
+      <div class="px-4 font-ubuntu text-2xl mb-2 text-stone-500 border-b-2 border-stone-500">
+        Features
+      </div>
+      <div class="m-4 p-4 flex flex-col sm:flex-row">
+        <div class="mx-4">
+          <div class="m-8 text-stone-500">
+            <div class="font-ubuntu text-xl mb-2">
+              <i class="fa-solid fa-dog text-2xl text-orange-400"></i>
+              Company for your dog
+            </div>
+            <div class="font-nanum">
+              Balloons are pretty and come in different colors, different shapes, different sizes, and they can even
+              adjust sizes as needed. But don't make them too big or they might just pop, and then bye-bye balloon.
+              It'll be gone and lost for the rest of mankind.
+            </div>
+          </div>
+          <div class="m-8 text-stone-500">
+            <div class="font-ubuntu text-xl mb-2">
+              <i class="fa-regular fa-bone text-2xl text-blue-500"></i>
+              Treats and training
+            </div>
+            <div class="font-nanum">
+              Balloons are pretty and come in different colors, different shapes, different sizes, and they can even
+              adjust sizes as needed. But don't make them too big or they might just pop, and then bye-bye balloon.
+              It'll be gone and lost for the rest of mankind.
+            </div>
+          </div>
+          <div class="m-8 text-stone-500">
+            <div class="font-ubuntu text-xl mb-2">
+              <i class="fa-solid fa-circle-heart text-2xl text-orange-400"></i>
+              Make doggo friends
+            </div>
+            <div class="font-nanum">
+              Balloons are pretty and come in different colors, different shapes, different sizes, and they can even
+              adjust sizes as needed. But don't make them too big or they might just pop, and then bye-bye balloon.
+              It'll be gone and lost for the rest of mankind.
+            </div>
+          </div>
         </div>
-        <div class="mx-8 sm:mx-24">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div class="mx-4">
+          <div class="m-8 text-stone-500">
+            <div class="font-ubuntu text-xl mb-2">
+              <i class="fa-solid fa-shield-dog text-2xl text-blue-500"></i>
+              Experienced dog sitters
+            </div>
+            <div class="font-nanum">
+              Balloons are pretty and come in different colors, different shapes, different sizes, and they can even
+              adjust sizes as needed. But don't make them too big or they might just pop, and then bye-bye balloon.
+              It'll be gone and lost for the rest of mankind.
+            </div>
+          </div>
+          <div class="m-8 text-stone-500">
+            <div class="font-ubuntu text-xl mb-2">
+              <i class="fa-solid fa-hand-holding-medical text-2xl text-orange-400"></i>
+              Donate to good cause
+            </div>
+            <div class="font-nanum">
+              Balloons are pretty and come in different colors, different shapes, different sizes, and they can even
+              adjust sizes as needed. But don't make them too big or they might just pop, and then bye-bye balloon.
+              It'll be gone and lost for the rest of mankind.
+            </div>
+          </div>
+
+          <div class="m-8 text-stone-500">
+            <div class="font-ubuntu text-xl mb-2">
+              <i class="fa-solid fa-tennis-ball text-2xl text-blue-500"></i>
+              Fun activities
+            </div>
+            <div class="font-nanum">
+              Balloons are pretty and come in different colors, different shapes, different sizes, and they can even
+              adjust sizes as needed. But don't make them too big or they might just pop, and then bye-bye balloon.
+              It'll be gone and lost for the rest of mankind.
+            </div>
+          </div>
         </div>
-        <div>
-          <i class="my-4 text-5xl fa-light fa-paw"></i>
+      </div>
+    </div>
+    <div id="team" class="py-6 flex flex-col items-center">
+      <div class="px-4 font-ubuntu text-2xl mb-2 text-stone-500 border-b-2 border-orange-400">
+        Team
+      </div>
+      <div class="m-4 p-4 text-stone-500 flex flex-wrap justify-center">
+        <div class="w-80 my-4 flex flex-col items-center">
+          <img class="w-40 rounded-full border-4 border-orange-400" src="./images/Snowball.webp" />
+          <div class="text-lg mt-2">
+            Snuffles
+          </div>
+          <div class="font-ubuntu text-lg text-orange-500 my-1 mb-2">
+            Chief Dog Officer
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </div>
+        </div>
+        <div class="w-80 my-4 flex flex-col items-center">
+          <img class="w-40 rounded-full border-4 border-orange-400" src="./images/Snowball.webp" />
+          <div class="text-lg mt-2">
+            Snuffles
+          </div>
+          <div class="font-ubuntu text-lg text-orange-500 my-1 mb-2">
+            Chief Dog Officer
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </div>
+        </div>
+        <div class="w-80 my-4 flex flex-col items-center">
+          <img class="w-40 rounded-full border-4 border-orange-400" src="./images/Snowball.webp" />
+          <div class="text-lg mt-2">
+            Snuffles
+          </div>
+          <div class="font-ubuntu text-lg text-orange-500 my-1 mb-2">
+            Chief Dog Officer
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="testimonials" class="p-4 pt-16 flex flex-col items-center bg-sky-600 font-ubuntu">
+      <div class="px-4 text-2xl mb-2 text-white border-b-2 border-white">
+        Testimonials
+      </div>
+      <div class="m-4 p-4 text-stone-400 flex flex-wrap justify-center">
+        <div
+          class="w-80 m-4 p-6 border border-stone-500 bg-amber-50 drop-shadow-md rounded-lg flex flex-col items-center">
+          <img class="w-24 my-4" src="./images/monster.png" />
+          <div class="flex-1">
+            <i class="mx-1 text-blue-400 text-lg fa-solid fa-quote-left"></i>
+            <div class="font-nanum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.</div><i
+              class="ml-1 text-blue-400 text-lg fa-solid fa-quote-right"></i>
+          </div>
+          <div class="flex justify-around items-center">
+            <div class="my-2 mx-2 text-blue-400 text-lg font-semibold">Autumn K</div>
+            <div class="my-2 text-sm text-stone-400">airbnbark host - NJ</div>
+          </div>
+        </div>
+
+        <div
+          class="w-80 m-4 p-6 border border-stone-500 bg-sky-50 drop-shadow-md rounded-lg flex flex-col items-center">
+          <img class="w-24 my-4" src="./images/monster (1).png" />
+          <div class="flex-1">
+            <i class="mx-1 text-orange-400 text-lg fa-solid fa-quote-left"></i>
+            <div class="font-nanum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.</div><i
+              class="ml-1 text-orange-400 text-lg fa-solid fa-quote-right"></i>
+          </div>
+          <div class="flex justify-around items-center">
+            <div class="my-2 mx-2 text-orange-400 text-lg font-semibold">Autumn K</div>
+            <div class="my-2 text-sm text-stone-400">airbnbark guest - NYC</div>
+          </div>
+        </div>
+
+
+        <div
+          class="w-80 m-4 p-6 border border-stone-500 bg-indigo-50 drop-shadow-md rounded-lg flex flex-col items-center">
+          <img class="w-24 my-4" src="./images/monster (2).png" />
+          <div class="flex-1">
+            <i class="mx-1 text-blue-400 text-lg fa-solid fa-quote-left"></i>
+            <div class="font-nanum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.</div><i
+              class="ml-1 text-blue-400 text-lg fa-solid fa-quote-right"></i>
+          </div>
+          <div class="flex justify-around items-center">
+            <div class="my-2 mx-2 text-blue-400 text-lg font-semibold">Autumn K</div>
+            <div class="my-2 text-sm text-stone-400">airbnbark guest - LA</div>
+          </div>
+        </div>
+
+
+        <div
+          class="w-80 m-4 p-6 border border-stone-500 bg-violet-50 drop-shadow-md rounded-lg flex flex-col items-center">
+          <img class="w-24 my-4" src="./images/monster (3).png" />
+          <div class="flex-1">
+            <i class="mx-1 text-orange-400 text-lg fa-solid fa-quote-left"></i>
+            <div class="font-nanum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.</div><i
+              class="ml-1 text-orange-400 text-lg fa-solid fa-quote-right"></i>
+          </div>
+          <div class="flex justify-around items-center">
+            <div class="my-2 mx-2 text-orange-400 text-lg font-semibold">Autumn K</div>
+            <div class="my-2 text-sm text-stone-400">airbnbark guest - SF</div>
+          </div>
+        </div>
+
+
+        <div
+          class="w-80 m-4 p-6 border border-stone-500 bg-purple-50 drop-shadow-md rounded-lg flex flex-col items-center">
+          <img class="w-24 my-4" src="./images/monster (4).png" />
+          <div class="flex-1">
+            <i class="mx-1 text-blue-400 text-lg fa-solid fa-quote-left"></i>
+            <div class="font-nanum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.</div><i
+              class="ml-1 text-blue-400 text-lg fa-solid fa-quote-right"></i>
+          </div>
+          <div class="flex justify-around items-center">
+            <div class="my-2 mx-2 text-blue-400 text-lg font-semibold">Autumn K</div>
+            <div class="my-2 text-sm text-stone-400">airbnbark host - NYC</div>
+          </div>
+        </div>
+
+
+        <div
+          class="w-80 m-4 p-6 border border-stone-500 bg-rose-50 drop-shadow-md rounded-lg flex flex-col items-center">
+          <img class="w-24 my-4" src="./images/monster (5).png" />
+          <div class="flex-1">
+            <i class="mx-1 text-orange-400 text-lg fa-solid fa-quote-left"></i>
+            <div class="font-nanum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Massa sed elementum tempus egestas sed sed risus pretium
+              quam. Fermentum dui faucibus in ornare quam viverra orci.</div><i
+              class="ml-1 text-orange-400 text-lg fa-solid fa-quote-right"></i>
+          </div>
+          <div class="flex justify-around items-center">
+            <div class="my-2 mx-2 text-orange-400 text-lg font-semibold">Autumn K</div>
+            <div class="my-2 text-sm text-stone-400">airbnbark guest - SA</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img class="w-20" src="./images/playing.png" />
+      </div>
+    </div>
+    <div id="faq" class="py-4 pt-16 flex flex-col items-center font-ubuntu text-stone-500">
+      <div class="text-2xl px-2 mb-2 border-b-2 border-orange-400">
+        Frequently Asked Questions
+      </div>
+      <div class="p-4 mx-8 sm:mx-24">
+        <div class="p-2 border-l-8 border-orange-400">
+          <div class="my-1">Small batch venmo iceland williamsburg, edison bulb migas?</div>
+          <div class="text-stone-400">Tofu enamel pin selfies activated charcoal, kogi actually man braid. Knausgaard
+            pour-over meh pickled occupy PBR&B. Small batch venmo iceland. Poutine tilde unicorn retro, mixtape green
+            juice they sold out cold-pressed crucifix bicycle rights seitan craft.</div>
         </div>
       </div>
 
-
-
-
-      <div id="features" class="py-4 pt-16 flex flex-col items-center">
-        <div class="px-4 font-ubuntu text-2xl mb-2 text-stone-500 border-b-2 border-stone-500">
-          Features
-        </div>
-        <div class="m-4 p-4 flex flex-col sm:flex-row">
-          <div class="mx-4">
-            <div class="m-8 text-stone-500">
-              <div class="font-ubuntu text-xl mb-2">
-                <i class="fa-solid fa-dog text-2xl text-orange-400"></i>
-                Company for your dog
-              </div>
-              <div class="font-nanum">
-                Balloons are pretty and come in different colors, different shapes, different sizes, and they can even adjust sizes as needed. But don't make them too big or they might just pop, and then bye-bye balloon. It'll be gone and lost for the rest of mankind.
-              </div>
-            </div>
-            <div class="m-8 text-stone-500">
-              <div class="font-ubuntu text-xl mb-2">
-                <i class="fa-regular fa-bone text-2xl text-blue-500"></i>
-                Treats and training
-              </div>
-              <div class="font-nanum">
-                Balloons are pretty and come in different colors, different shapes, different sizes, and they can even adjust sizes as needed. But don't make them too big or they might just pop, and then bye-bye balloon. It'll be gone and lost for the rest of mankind.
-              </div>
-            </div>
-            <div class="m-8 text-stone-500">
-              <div class="font-ubuntu text-xl mb-2">
-                <i class="fa-solid fa-circle-heart text-2xl text-orange-400"></i>
-                Make doggo friends
-              </div>
-              <div class="font-nanum">
-                Balloons are pretty and come in different colors, different shapes, different sizes, and they can even adjust sizes as needed. But don't make them too big or they might just pop, and then bye-bye balloon. It'll be gone and lost for the rest of mankind.
-              </div>
-            </div>
+      <div class="p-4 mx-8 sm:mx-24">
+        <div class="p-2 border-l-8 border-blue-400">
+          <div class="my-1">
+            Tousled salvia semiotics roof party, helvetica sriracha shaman. Blog lomo echo park edison bulb,
+            asymmetrical artisan celiac before they sold out?
           </div>
-          <div class="mx-4">
-            <div class="m-8 text-stone-500">
-              <div class="font-ubuntu text-xl mb-2">
-                <i class="fa-solid fa-shield-dog text-2xl text-blue-500"></i>
-                Experienced dog sitters
-              </div>
-              <div class="font-nanum">
-                Balloons are pretty and come in different colors, different shapes, different sizes, and they can even adjust sizes as needed. But don't make them too big or they might just pop, and then bye-bye balloon. It'll be gone and lost for the rest of mankind.
-              </div>
-            </div>
-            <div class="m-8 text-stone-500">
-              <div class="font-ubuntu text-xl mb-2">
-                <i class="fa-solid fa-hand-holding-medical text-2xl text-orange-400"></i>
-                Donate to good cause
-              </div>
-              <div class="font-nanum">
-                Balloons are pretty and come in different colors, different shapes, different sizes, and they can even adjust sizes as needed. But don't make them too big or they might just pop, and then bye-bye balloon. It'll be gone and lost for the rest of mankind.
-              </div>
-            </div>
-
-            <div class="m-8 text-stone-500">
-              <div class="font-ubuntu text-xl mb-2">
-                <i class="fa-solid fa-tennis-ball text-2xl text-blue-500"></i>
-                Fun activities
-              </div>
-              <div class="font-nanum">
-                Balloons are pretty and come in different colors, different shapes, different sizes, and they can even adjust sizes as needed. But don't make them too big or they might just pop, and then bye-bye balloon. It'll be gone and lost for the rest of mankind.
-              </div>
-            </div>
+          <div class="text-stone-400">Tofu enamel pin selfies activated charcoal, kogi actually man braid. Knausgaard
+            pour-over meh pickled occupy PBR&B. Small batch venmo iceland. Poutine tilde unicorn retro, mixtape green
+            juice they sold out cold-pressed crucifix bicycle rights seitan craft.</div>
+        </div>
+      </div>
+      <div class="p-4 mx-8 sm:mx-24">
+        <div class="p-2 border-l-8 border-orange-400">
+          <div class="my-1">
+            Coloring book taxidermy tacos, you probably haven't heard of them pour-over mixtape green juice?
+          </div>
+          <div class="text-stone-400">
+            Tofu enamel pin selfies activated charcoal, kogi actually man braid. Knausgaard pour-over meh pickled occupy
+            PBR&B. Small batch venmo iceland. Poutine tilde unicorn retro, mixtape green juice they sold out
+            cold-pressed crucifix bicycle rights seitan craft.
           </div>
         </div>
       </div>
-      <div id="team" class="py-6 flex flex-col items-center">
-        <div class="px-4 font-ubuntu text-2xl mb-2 text-stone-500 border-b-2 border-orange-400">
-          Team
+      <div class="p-4 mx-8 sm:mx-24">
+        <div class="p-2 border-l-8 border-blue-400">
+          <div class="my-1">
+            Flexitarian celiac tumblr health goth cronut lyft. Mlkshk humblebrag cloud bread?
+          </div>
+          <div class="text-stone-400">
+            Tofu enamel pin selfies activated charcoal, kogi actually man braid. Knausgaard pour-over meh pickled occupy
+            PBR&B. Small batch venmo iceland. Poutine tilde unicorn retro, mixtape green juice they sold out
+            cold-pressed crucifix bicycle rights seitan craft.
+          </div>
         </div>
-        <div class="m-4 p-4 text-stone-500 flex flex-wrap justify-center">
-          <div class="w-80 my-4 flex flex-col items-center">
-            <img class="w-40 rounded-full border-4 border-orange-400" src="./images/Snowball.webp"/>
-            <div class="text-lg mt-2">
-              Snuffles
+      </div>
+      <div class="p-4 mx-8 sm:mx-24">
+        <div class="p-2 border-l-8 border-orange-400">
+          <div class="my-1">
+            Small batch venmo iceland williamsburg, edison bulb migas?
+          </div>
+          <div class="text-stone-400">
+            Tofu enamel pin selfies activated charcoal, kogi actually man braid. Knausgaard pour-over meh pickled occupy
+            PBR&B. Small batch venmo iceland. Poutine tilde unicorn retro, mixtape green juice they sold out
+            cold-pressed crucifix bicycle rights seitan craft.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center py-8">
+      <div class="rounded-lg border border-stone-200 shadow-md sm:w-6/12">
+        <div class="py-2 px-6 rounded-t-lg bg-orange-400 flex justify-between items-center">
+          <div>
+            <div class="text-white text-lg font-ubuntu">Contact Us</div>
+            <div class="text-orange-50 text-sm font-ubuntu">we're all ears</div>
+            
+          </div>
+          <i class="text-3xl text-white fa-regular fa-shield-dog"></i>
+        </div>
+        <div class="p-4 flex flex-col items-center bg-stone-100 font-ubuntu text-gray-400 font-light">
+          <div class="w-full flex">
+            <div class="pr-1 flex-1">
+              <div>
+                first name
+              </div>
+              <input class="w-full mr-1 border border-stone-200"/>
             </div>
-            <div class="font-ubuntu text-lg text-orange-500 my-1 mb-2">
-              Chief Dog Officer
+            <div class="pr-1 flex-1">
+              <div>
+                last name
+              </div>
+              <input class="w-full mr-1 border border-stone-200"/>
             </div>
+            
+          </div>
+          <div class="w-full flex">
+            <div class="pr-1 flex-1">
+              <div>
+                email adress
+              </div>
+              <input class="w-full mr-1 border border-stone-200"/>
+            </div>
+            <div class="pr-1 flex-1">
+              <div>
+                inquiry category
+              </div>
+              <input class="w-full mr-1 border border-stone-200"/>
+            </div>
+          </div>
+          <div class="w-full pr-1">
             <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              subject
             </div>
+            <input class="w-full mr-1 border border-stone-200"/>
+            
           </div>
-          <div class="w-80 my-4 flex flex-col items-center">
-            <img class="w-40 rounded-full border-4 border-orange-400" src="./images/Snowball.webp"/>
-            <div class="text-lg mt-2">
-              Snuffles
-            </div>
-            <div class="font-ubuntu text-lg text-orange-500 my-1 mb-2">
-              Chief Dog Officer
-            </div>
+          <div class="w-full pr-1">
             <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              message
             </div>
+            <input class="w-full mr-1 border border-stone-200"/>
+            
           </div>
-          <div class="w-80 my-4 flex flex-col items-center">
-            <img class="w-40 rounded-full border-4 border-orange-400" src="./images/Snowball.webp"/>
-            <div class="text-lg mt-2">
-              Snuffles
-            </div>
-            <div class="font-ubuntu text-lg text-orange-500 my-1 mb-2">
-              Chief Dog Officer
-            </div>
-            <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="testimonials" class="p-4 pt-16 flex flex-col items-center bg-sky-600 font-ubuntu">
-        <div class="px-4 text-2xl mb-2 text-white border-b-2 border-white">
-          Testimonials
-        </div>
-        <div class="m-4 p-4 text-stone-400 flex flex-wrap justify-center">
-          <div class="w-80 m-4 p-6 border border-stone-500 bg-amber-50 drop-shadow-md rounded-lg flex flex-col items-center">
-            <img class="w-24 my-4" src="./images/monster.png"/>
-            <div class="flex-1">
-              <i class="mx-1 text-blue-400 text-lg fa-solid fa-quote-left"></i><div class="font-nanum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div><i class="ml-1 text-blue-400 text-lg fa-solid fa-quote-right"></i>
-            </div>
-            <div class="flex justify-around items-center">
-              <div class="my-2 mx-2 text-blue-400 text-lg font-semibold">Autumn K</div>
-              <div class="my-2 text-sm text-stone-400">airbnbark host - NJ</div>
-            </div>
+          <div clss="w-full">
+            <button class="w-full m-1 bg-orange-400 px-4 py-1 text-white">
+              send
+              <i class="fa-sharp fa-solid fa-paper-plane"></i>
+            </button>
           </div>
           
-          <div class="w-80 m-4 p-6 border border-stone-500 bg-sky-50 drop-shadow-md rounded-lg flex flex-col items-center">
-            <img class="w-24 my-4" src="./images/monster (1).png"/>
-            <div class="flex-1">
-              <i class="mx-1 text-orange-400 text-lg fa-solid fa-quote-left"></i><div class="font-nanum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div><i class="ml-1 text-orange-400 text-lg fa-solid fa-quote-right"></i>
-            </div>
-            <div class="flex justify-around items-center">
-              <div class="my-2 mx-2 text-orange-400 text-lg font-semibold">Autumn K</div>
-              <div class="my-2 text-sm text-stone-400">airbnbark guest - NYC</div>
-            </div>
-          </div>
-
-
-          <div class="w-80 m-4 p-6 border border-stone-500 bg-indigo-50 drop-shadow-md rounded-lg flex flex-col items-center">
-            <img class="w-24 my-4" src="./images/monster (2).png"/>
-            <div class="flex-1">
-              <i class="mx-1 text-blue-400 text-lg fa-solid fa-quote-left"></i><div class="font-nanum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div><i class="ml-1 text-blue-400 text-lg fa-solid fa-quote-right"></i>
-            </div>
-            <div class="flex justify-around items-center">
-              <div class="my-2 mx-2 text-blue-400 text-lg font-semibold">Autumn K</div>
-              <div class="my-2 text-sm text-stone-400">airbnbark guest - LA</div>
-            </div>
-          </div>
-
-
-          <div class="w-80 m-4 p-6 border border-stone-500 bg-violet-50 drop-shadow-md rounded-lg flex flex-col items-center">
-            <img class="w-24 my-4" src="./images/monster (3).png"/>
-            <div class="flex-1">
-              <i class="mx-1 text-orange-400 text-lg fa-solid fa-quote-left"></i><div class="font-nanum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div><i class="ml-1 text-orange-400 text-lg fa-solid fa-quote-right"></i>
-            </div>
-            <div class="flex justify-around items-center">
-              <div class="my-2 mx-2 text-orange-400 text-lg font-semibold">Autumn K</div>
-              <div class="my-2 text-sm text-stone-400">airbnbark guest - SF</div>
-            </div>
-          </div>
-
-
-          <div class="w-80 m-4 p-6 border border-stone-500 bg-purple-50 drop-shadow-md rounded-lg flex flex-col items-center">
-            <img class="w-24 my-4" src="./images/monster (4).png"/>
-            <div class="flex-1">
-              <i class="mx-1 text-blue-400 text-lg fa-solid fa-quote-left"></i><div class="font-nanum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div><i class="ml-1 text-blue-400 text-lg fa-solid fa-quote-right"></i>
-            </div>
-            <div class="flex justify-around items-center">
-              <div class="my-2 mx-2 text-blue-400 text-lg font-semibold">Autumn K</div>
-              <div class="my-2 text-sm text-stone-400">airbnbark host - NYC</div>
-            </div>
-          </div>
-
-
-          <div class="w-80 m-4 p-6 border border-stone-500 bg-rose-50 drop-shadow-md rounded-lg flex flex-col items-center">
-            <img class="w-24 my-4" src="./images/monster (5).png"/>
-            <div class="flex-1">
-              <i class="mx-1 text-orange-400 text-lg fa-solid fa-quote-left"></i><div class="font-nanum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Massa sed elementum tempus egestas sed sed risus pretium quam. Fermentum dui faucibus in ornare quam viverra orci.</div><i class="ml-1 text-orange-400 text-lg fa-solid fa-quote-right"></i>
-            </div>
-            <div class="flex justify-around items-center">
-              <div class="my-2 mx-2 text-orange-400 text-lg font-semibold">Autumn K</div>
-              <div class="my-2 text-sm text-stone-400">airbnbark guest - SA</div>
-            </div>
-          </div>
         </div>
-        <div>
-          <img class="w-20" src="./images/playing.png"/>
-        </div>
-      </div>
-      <div id="faq" class="py-4 pt-16 flex flex-col items-center font-ubuntu text-stone-500">
-        <div class="text-2xl px-2 mb-2 border-b-2 border-orange-400">
-          Frequently Asked Questions
-        </div>
-        <div class="p-4 mx-8 sm:mx-24">
-          <div class="p-2 border-l-8 border-orange-400">
-            <div class="my-1">Small batch venmo iceland williamsburg, edison bulb migas?</div>
-            <div class="text-stone-400">Tofu enamel pin selfies activated charcoal, kogi actually man braid. Knausgaard pour-over meh pickled occupy PBR&B. Small batch venmo iceland. Poutine tilde unicorn retro, mixtape green juice they sold out cold-pressed crucifix bicycle rights seitan craft.</div>
-          </div>
-        </div>
-
-        <div class="p-4 mx-8 sm:mx-24">
-          <div class="p-2 border-l-8 border-blue-400">
-            <div class="my-1">
-              Tousled salvia semiotics roof party, helvetica sriracha shaman. Blog lomo echo park edison bulb, asymmetrical artisan celiac before they sold out?
-            </div>
-            <div class="text-stone-400">Tofu enamel pin selfies activated charcoal, kogi actually man braid. Knausgaard pour-over meh pickled occupy PBR&B. Small batch venmo iceland. Poutine tilde unicorn retro, mixtape green juice they sold out cold-pressed crucifix bicycle rights seitan craft.</div>
-          </div>
-        </div>
-        <div class="p-4 mx-8 sm:mx-24">
-          <div class="p-2 border-l-8 border-orange-400">
-            <div class="my-1">
-              Coloring book taxidermy tacos, you probably haven't heard of them pour-over mixtape green juice?
-            </div>
-            <div class="text-stone-400">
-              Tofu enamel pin selfies activated charcoal, kogi actually man braid. Knausgaard pour-over meh pickled occupy PBR&B. Small batch venmo iceland. Poutine tilde unicorn retro, mixtape green juice they sold out cold-pressed crucifix bicycle rights seitan craft.
-            </div>
-          </div>
-        </div>
-        <div class="p-4 mx-8 sm:mx-24">
-          <div class="p-2 border-l-8 border-blue-400">
-            <div class="my-1">
-              Flexitarian celiac tumblr health goth cronut lyft. Mlkshk humblebrag cloud bread?
-            </div>
-            <div class="text-stone-400">
-              Tofu enamel pin selfies activated charcoal, kogi actually man braid. Knausgaard pour-over meh pickled occupy PBR&B. Small batch venmo iceland. Poutine tilde unicorn retro, mixtape green juice they sold out cold-pressed crucifix bicycle rights seitan craft.
-            </div>
-          </div>
-        </div>
-        <div class="p-4 mx-8 sm:mx-24">
-          <div class="p-2 border-l-8 border-orange-400">
-            <div class="my-1">
-              Small batch venmo iceland williamsburg, edison bulb migas?
-            </div>
-            <div class="text-stone-400">
-              Tofu enamel pin selfies activated charcoal, kogi actually man braid. Knausgaard pour-over meh pickled occupy PBR&B. Small batch venmo iceland. Poutine tilde unicorn retro, mixtape green juice they sold out cold-pressed crucifix bicycle rights seitan craft.
-            </div>
-          </div>
-        </div>
-
         
       </div>
-      <div class="bg-sky-900 px-24 py-8">
-        <div class="flex justify-between items-center">
-          <div class="flex items-center">
-            <img class="w-12 px-1" src="./images/dog_logo.png"/>
-            <div class="text-xl font-ubuntu text-orange-400">
-              airbn<span class="text-sky-500">bark</span>
-            </div>
-          </div>
-          <div class="text-white">
-            <i class="text-xl mr-2 fa-brands fa-linkedin hover:text-orange-400 cursor-pointer"></i>
-            <i class="text-xl mr-2 fa-brands fa-twitter hover:text-orange-400 cursor-pointer"></i>
-            <i class="text-xl fa-brands fa-instagram hover:text-orange-400 cursor-pointer"></i>
+    </div>
+    <div class="bg-sky-900 px-24 py-8">
+      <div class="flex justify-between items-center">
+        <div class="flex items-center">
+          <img class="w-12 px-1" src="./images/dog_logo.png" />
+          <div class="text-xl font-ubuntu text-orange-400">
+            airbn<span class="text-sky-500">bark</span>
           </div>
         </div>
-        <div class="pt-4 flex flex-col sm:flex-row justify-between">
-          <div class="text-slate-300 font-ubuntu flex justify-between">
-            <div class="my-6 mx-4 flex flex-col text-sm">
-              <div class="my-1 text-slate-50">Company</div>
-              <a href="#mission" class="my-1 font-light text-slate-400">Mission</a>
-              <a href="#team" class="my-1 font-light text-slate-400">Team</a>
-              <a href="" class="my-1 font-light text-slate-400">Contact Us</a>
-            </div>
-            <div class="my-6 mx-4 flex flex-col text-sm">
-              <div class="my-1 text-slate-50">Product</div>
-              <a href="#features" class="my-1 font-light text-slate-400">Features</a>
-              <a href="#testimonials" class="my-1 font-light text-slate-400">Testimonials</a>
-              <a href="#faq" class="my-1 font-light text-slate-400">FAQ</a>
-            </div>
-            <div class="my-6 mx-4 flex flex-col text-sm">
-              <div class="my-1 text-slate-50">Legal</div>
-              <div class="my-1 font-light text-slate-400">Privacy Policy</div>
-              <div class="my-1 font-light text-slate-400">Terms of Use</div>
-            </div>
+        <div class="text-white">
+          <i class="text-xl mr-2 fa-brands fa-linkedin hover:text-orange-400 cursor-pointer"></i>
+          <i class="text-xl mr-2 fa-brands fa-twitter hover:text-orange-400 cursor-pointer"></i>
+          <i class="text-xl fa-brands fa-instagram hover:text-orange-400 cursor-pointer"></i>
+        </div>
+      </div>
+      <div class="pt-4 flex flex-col sm:flex-row justify-between">
+        <div class="text-slate-300 font-ubuntu flex justify-between">
+          <div class="my-6 mx-4 flex flex-col text-sm">
+            <div class="my-1 text-slate-50">Company</div>
+            <a href="#mission" class="my-1 font-light text-slate-400">Mission</a>
+            <a href="#team" class="my-1 font-light text-slate-400">Team</a>
+            <a href="" class="my-1 font-light text-slate-400">Contact Us</a>
           </div>
+          <div class="my-6 mx-4 flex flex-col text-sm">
+            <div class="my-1 text-slate-50">Product</div>
+            <a href="#features" class="my-1 font-light text-slate-400">Features</a>
+            <a href="#testimonials" class="my-1 font-light text-slate-400">Testimonials</a>
+            <a href="#faq" class="my-1 font-light text-slate-400">FAQ</a>
+          </div>
+          <div class="my-6 mx-4 flex flex-col text-sm">
+            <div class="my-1 text-slate-50">Legal</div>
+            <div class="my-1 font-light text-slate-400">Privacy Policy</div>
+            <div class="my-1 font-light text-slate-400">Terms of Use</div>
+          </div>
+        </div>
 
-          <div class="my-6 ml-4 flex flex-col justify-end font-ubuntu text-slate-400 text-sm font-light">
-            <div>
-              Ⓒ Copyright 2023 Airbnbark, Inc.
-            </div>
-            <div>
-              All treats reserved.
-            </div>
+        <div class="my-6 ml-4 flex flex-col justify-end font-ubuntu text-slate-400 text-sm font-light">
+          <div>
+            Ⓒ Copyright 2023 Airbnbark, Inc.
+          </div>
+          <div>
+            All treats reserved.
           </div>
         </div>
       </div>
-
-
-      
     </div>
-  </body>
+
+
+
+  </div>
+</body>
+
 </html>
